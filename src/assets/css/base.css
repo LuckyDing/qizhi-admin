@@ -1,0 +1,101 @@
+/*颜色*/
+/*红*/
+[color = red]{
+  color:#ff0000;
+}
+/*橙*/
+[color = orange]{
+  color:#ff9900;
+}
+/*黄*/
+[color = yellow]{
+  color:#ffff00;
+}
+/*绿*/
+[color = green]{
+  color:#00CD00;
+}
+/*青*/
+[color = indigo]{
+  color:#49556b;
+}
+/*蓝*/
+[color = blue]{
+  color:#008bee;
+}
+/*紫*/
+[color = purple]{
+  color:#9900ff;
+}
+/*粉*/
+[color = pink]{
+  color:#ff00ff;
+}
+
+/*黑*/
+[color = black]{
+  color:#000;
+}
+/*白*/
+[color = white]{
+  color:#fff;
+}
+[color = gray]{
+  color: #ababab;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+    display: block;
+    background-color: #f1f2f4;
+    height: 100%
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black
+}
+input{
+  outline: none;
+}
+img{
+  display: block;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 1px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+}
+.float-right{
+  float: right;
+}
+.bloder{
+  font-size: bloder
+}
+.margin-1em{
+  margin-top: 1em;
+}
+.copyright{
+  text-align:center;
+  line-height:60px;
+  font-size:12px;
+  color:#999
+}
+.el-main{
+  background-color:#f9f9f9;
+}
+.el-button{
+  font-size: 12px;
+}
+.el-button--primary.is-plain{
+  background: #fff;
+}
